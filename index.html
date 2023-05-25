@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/add-user-url">
+        <fieldset>
+            <legend>Add User</legend>
+            <div>
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name="first_name">
+            </div>
+            <div>
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" name="last_name">
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email_address">
+            </div>
+            <div>
+                <label for="role">Role</label>
+                <select name="user_role_name" id="role">
+                    <option value="Student">Student</option>
+                    <option value="Teacher">Teacher</option>
+                    <option value="Guest">Guest</option>
+                </select>
+                <p>Choose your favorite programming language</p>
+                <div>
+                    <input type="radio" id="html" name="html" value="html" checked>
+                    <label for="html">HTML</label>
+                </div>
+                <div>
+                    <input type="radio" id="css" name="css" value="css">
+                    <label for="css">CSS</label>
+                </div>
+                <div>
+                    <input type="radio" id="javascript" name="javascript" value="javascript">
+                    <label for="javascript">Javascript</label>
+                </div>
+            </div>
+           
+        </fieldset>
+    
+    </form>
+</body>
+</html>
+
+
+
